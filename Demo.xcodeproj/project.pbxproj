@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3E88C51F42CAB40057A454 /* TYMutableDropMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E88C21F42CAB40057A454 /* TYMutableDropMenuCell.m */; };
+		1E3E88C61F42CAB40057A454 /* TYMutableDropMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E88C41F42CAB40057A454 /* TYMutableDropMenuView.m */; };
+		1E4421FF1F413A40000406DC /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E4421FC1F413A40000406DC /* address.plist */; };
+		1E4422001F413A40000406DC /* sorts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E4421FD1F413A40000406DC /* sorts.plist */; };
+		1E4422011F413A40000406DC /* type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E4421FE1F413A40000406DC /* type.plist */; };
 		1EE1D9571F3EEDE9001571A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1D9561F3EEDE9001571A2 /* main.m */; };
 		1EE1D95A1F3EEDE9001571A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1D9591F3EEDE9001571A2 /* AppDelegate.m */; };
 		1EE1D95D1F3EEDE9001571A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1D95C1F3EEDE9001571A2 /* ViewController.m */; };
@@ -16,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3E88C11F42CAB40057A454 /* TYMutableDropMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMutableDropMenuCell.h; sourceTree = "<group>"; };
+		1E3E88C21F42CAB40057A454 /* TYMutableDropMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMutableDropMenuCell.m; sourceTree = "<group>"; };
+		1E3E88C31F42CAB40057A454 /* TYMutableDropMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMutableDropMenuView.h; sourceTree = "<group>"; };
+		1E3E88C41F42CAB40057A454 /* TYMutableDropMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMutableDropMenuView.m; sourceTree = "<group>"; };
+		1E4421FC1F413A40000406DC /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+		1E4421FD1F413A40000406DC /* sorts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sorts.plist; sourceTree = "<group>"; };
+		1E4421FE1F413A40000406DC /* type.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = type.plist; sourceTree = "<group>"; };
 		1EE1D9521F3EEDE9001571A2 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE1D9561F3EEDE9001571A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EE1D9581F3EEDE9001571A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E3E88C01F42CAB40057A454 /* TYMutableDropMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				1E3E88C11F42CAB40057A454 /* TYMutableDropMenuCell.h */,
+				1E3E88C21F42CAB40057A454 /* TYMutableDropMenuCell.m */,
+				1E3E88C31F42CAB40057A454 /* TYMutableDropMenuView.h */,
+				1E3E88C41F42CAB40057A454 /* TYMutableDropMenuView.m */,
+			);
+			path = TYMutableDropMenuView;
+			sourceTree = "<group>";
+		};
 		1EE1D9491F3EEDE9001571A2 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +81,7 @@
 		1EE1D9541F3EEDE9001571A2 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1E3E88C01F42CAB40057A454 /* TYMutableDropMenuView */,
 				1EE1D9581F3EEDE9001571A2 /* AppDelegate.h */,
 				1EE1D9591F3EEDE9001571A2 /* AppDelegate.m */,
 				1EE1D95B1F3EEDE9001571A2 /* ViewController.h */,
@@ -66,6 +90,9 @@
 				1EE1D9611F3EEDE9001571A2 /* Assets.xcassets */,
 				1EE1D9631F3EEDE9001571A2 /* LaunchScreen.storyboard */,
 				1EE1D9661F3EEDE9001571A2 /* Info.plist */,
+				1E4421FC1F413A40000406DC /* address.plist */,
+				1E4421FD1F413A40000406DC /* sorts.plist */,
+				1E4421FE1F413A40000406DC /* type.plist */,
 				1EE1D9551F3EEDE9001571A2 /* Supporting Files */,
 			);
 			path = Demo;
@@ -138,7 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4422011F413A40000406DC /* type.plist in Resources */,
 				1EE1D9651F3EEDE9001571A2 /* LaunchScreen.storyboard in Resources */,
+				1E4421FF1F413A40000406DC /* address.plist in Resources */,
+				1E4422001F413A40000406DC /* sorts.plist in Resources */,
 				1EE1D9621F3EEDE9001571A2 /* Assets.xcassets in Resources */,
 				1EE1D9601F3EEDE9001571A2 /* Main.storyboard in Resources */,
 			);
@@ -152,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE1D95D1F3EEDE9001571A2 /* ViewController.m in Sources */,
+				1E3E88C61F42CAB40057A454 /* TYMutableDropMenuView.m in Sources */,
 				1EE1D95A1F3EEDE9001571A2 /* AppDelegate.m in Sources */,
 				1EE1D9571F3EEDE9001571A2 /* main.m in Sources */,
+				1E3E88C51F42CAB40057A454 /* TYMutableDropMenuCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +346,7 @@
 				1EE1D96B1F3EEDE9001571A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
